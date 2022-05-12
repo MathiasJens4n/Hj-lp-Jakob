@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Hjælp_Jakob
 {
     public enum MessageCarrier { Smtp, VMessage }
-
+    //This class sends a message to either one or many persons using SMTP or VMessage
     internal class MessageService
     {
         Converter converter;
